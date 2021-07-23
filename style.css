@@ -58,7 +58,12 @@ li:hover{
    align-items: center;
 }
 
+.search form{
+   display: flex;
+}
+
 .login{
+   width: 100%;
    display: flex;
    margin-left: 15px;
    align-items: center;

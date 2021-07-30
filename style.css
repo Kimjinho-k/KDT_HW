@@ -29,8 +29,6 @@ li:hover{
 .navbar_left{
    display: flex;
    align-items: center;
-   display: flex;
-   align-items: center;
 }
 
 .logo {

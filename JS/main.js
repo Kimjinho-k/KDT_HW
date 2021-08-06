@@ -14,7 +14,7 @@ const data = [
 
 // 사용자 입력 받기
 const line = prompt("최대 금액을 입력해주세요.");
-const amount = +line;
+const amount = parseInt(line);
 
 // 아래에 getItemByAmount 함수를 작성하세요.
 const getItemByAmount = (data, amount) => {

@@ -20,7 +20,7 @@ const amount = parseInt(line);
 const getItemByAmount = (data, amount) => {
   let max = 0; // max를 0으로 초기화 -> msg의 삼항연산자 조건식 때문
   data.map((found) => {
-    //반복문 map을 활용하여 data 배열의 모든 객체를 순회 하고 새로운 배열을 return
+    //고차배열 메서드인 map을 활용하여 data 배열의 모든 객체를 순회 하고 새로운 배열을 return
     if (amount > found.price) { // 입력 한 금액과 배열의 첫번 째 객체를 비교
       if (max === 0) { // 위의 조건문이 flase가 되면 안되기 때문에 max를 found 리스트에 대입
         max = found;  // max 값에 입력한 값과 비교 된 found.price 객체를 할당
